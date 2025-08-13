@@ -10,11 +10,11 @@ import './project.css';
 export default function Project() {
     const cards = [
         { id: 1, img: hr, title: 'Virtual HR', desc: "AI-powered proctoring tool for secure, real-time exam monitoring using facial recognition and activity tracking.", link: "https://hr.megavaultbox.com/" },
-        { id: 2, img: Zoom, title: 'Zoom Clone', desc: "React and Django-based video conferencing app with JWT authentication, real-time audio/video calls, and WebSocket messaging.", link: "https://github.com/yourusername/zoom-clone" },
-        { id: 3, img: object, title: 'Object Detection', desc: "Computer vision project using OpenCV and deep learning to detect and classify multiple objects in real time from media streams.", link: "https://github.com/yourusername/object-detection" },
-        { id: 4, img: brain, title: 'Brain Tumor Detection', desc: "Machine learning system trained on MRI scans to identify and locate brain tumors with high accuracy for medical assistance.", link: "https://github.com/yourusername/brain-tumor-detection" },
-        { id: 5, img: portfolio, title: 'My Portfolio', desc: "Responsive and interactive personal portfolio showcasing projects, skills, and experience with clean UI, animations, and smooth navigation.", link: "https://github.com/yourusername/portfolio" },
-        { id: 6, img: emotion, title: 'Emotion Detection', desc: "Deep learning project using FER-2013 dataset to analyze facial expressions and accurately classify human emotions in real time.", link: "https://github.com/yourusername/emotion-detection" }
+        { id: 2, img: Zoom, title: 'Zoom Clone', desc: "React and Django-based video conferencing app with JWT authentication, real-time audio/video calls, and WebSocket messaging.", link: "#" },
+        { id: 3, img: object, title: 'Object Detection', desc: "Computer vision project using OpenCV and deep learning to detect and classify multiple objects in real time from media streams.", link: "https://github.com/Anupamyadav7428/object_detection_model" },
+        { id: 4, img: brain, title: 'Brain Tumor Detection', desc: "Machine learning system trained on MRI scans to identify and locate brain tumors with high accuracy for medical assistance.", link: "https://github.com/Anupamyadav7428/Brain-Cancer-Detection" },
+        { id: 5, img: portfolio, title: 'My Portfolio', desc: "Responsive and interactive personal portfolio showcasing projects, skills, and experience with clean UI, animations, and smooth navigation.", link: "https://github.com/Anupamyadav7428/React_portfolio" },
+        { id: 6, img: emotion, title: 'Emotion Detection', desc: "Deep learning project using FER-2013 dataset to analyze facial expressions and accurately classify human emotions in real time.", link: "https://github.com/Anupamyadav7428/Emotion_detection" }
     ];
 
     const scrollRef = useRef(null);

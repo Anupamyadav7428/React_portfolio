@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import emotion from './assets/emotion_detection.png';
+import emotion from './assets/Emotion_detection.png';
 import brain from './assets/brain.png';
 import hr from './assets/virtual_hr.png';
 import portfolio from './assets/portfolio_img.png';
